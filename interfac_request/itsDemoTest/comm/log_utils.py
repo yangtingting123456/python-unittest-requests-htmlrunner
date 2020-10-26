@@ -2,7 +2,7 @@
 import os
 import logging
 from logging import handlers
-from itsDemoTest.comm.ReadConfig import config
+from interfac_request.itsDemoTest.comm.ReadConfig import config
 import time
 
 log_path = os.path.join( os.path.dirname(__file__),'..', config.LOG_PATH )

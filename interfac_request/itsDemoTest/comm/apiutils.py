@@ -1,8 +1,8 @@
 import requests
-from itsDemoTest.comm.ReadConfig import config
-from itsDemoTest.comm.md5_password import psd
+from interfac_request.itsDemoTest.comm.ReadConfig import config
+from interfac_request.itsDemoTest.comm.md5_password import psd
 from requests.exceptions import ReadTimeout, ConnectionError, RequestException
-from itsDemoTest.comm.log_utils import logger
+from interfac_request.itsDemoTest.comm.log_utils import logger
 
 class ApiUtils:
     #用户登录api

@@ -1,9 +1,9 @@
 import requests
-from itsDemoTest.comm.ReadConfig import config
-from itsDemoTest.comm.md5_password import psd
+from interfac_request.itsDemoTest.comm.ReadConfig import config
+from interfac_request.itsDemoTest.comm.md5_password import psd
 import unittest
-from itsDemoTest.comm.apiutils import API_Info
-from itsDemoTest.comm.log_utils import logger
+from interfac_request.itsDemoTest.comm.apiutils import API_Info
+from interfac_request.itsDemoTest.comm.log_utils import logger
 
 class UserListCase(unittest.TestCase):
     def setUp(self) -> None:

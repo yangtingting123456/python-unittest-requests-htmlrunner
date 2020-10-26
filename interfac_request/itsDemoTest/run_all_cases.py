@@ -2,11 +2,11 @@
 import unittest
 import os
 
-from  itsDemoTest.comm import HTMLTestReportCN
-from itsDemoTest.comm.email_utils import EmailUtils
+from  interfac_request.itsDemoTest.comm import HTMLTestReportCN
+from interfac_request.itsDemoTest.comm.email_utils import EmailUtils
 import time
-from itsDemoTest.comm.ReadConfig import config
-from itsDemoTest.comm.log_utils import logger
+from interfac_request.itsDemoTest.comm.ReadConfig import config
+from interfac_request.itsDemoTest.comm.log_utils import logger
 
 case_path = os.path.join( os.path.dirname(__file__),'testcases' )
 print(case_path)
