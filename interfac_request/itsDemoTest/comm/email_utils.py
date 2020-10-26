@@ -13,7 +13,7 @@ class EmailUtils:
         self.smtp_password = 'qsvgzpwencendgff'
         self.smtp_receiver = config.SMTP_RECEIVER
         self.smtp_cc = '3048903923@qq.com'
-        self.smtp_subject = '接口测试测试报告'
+        self.smtp_subject = 'its2.0 娴嬭瘯鎶ュ憡'
         self.smtp_body = smtp_body
         self.smtp_attch_path = smtp_attch_path
         self.log_attch_path = log_attch_path

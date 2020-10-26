@@ -6,6 +6,7 @@ from interfac_request.itsDemoTest.comm.ReadConfig import config
 import time
 
 log_path = os.path.join( os.path.dirname(__file__),'..', config.LOG_PATH )
+print(log_path)
 
 class LogUtils:
     def __init__(self,log_path = log_path,rq=time.strftime('%Y%m%d%H%M_', time.localtime(time.time())) ):
