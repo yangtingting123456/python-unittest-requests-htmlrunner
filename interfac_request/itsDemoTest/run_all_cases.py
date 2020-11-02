@@ -1,7 +1,5 @@
-
 import unittest
 import os
-
 from  interfac_request.itsDemoTest.comm import HTMLTestReportCN
 from interfac_request.itsDemoTest.comm.email_utils import EmailUtils
 import time
